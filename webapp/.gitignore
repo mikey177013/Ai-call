@@ -1,0 +1,39 @@
+# Environment Variables & API Keys (Highly Confidential)
+.env
+*.env
+!.env.example
+
+# Node.js Dependencies
+node_modules/
+
+# WhatsApp Session Database (SQLite login session)
+*.db
+*.db-wal
+*.db-shm
+ai_call_session.db*
+
+# Temporary Audio Files & Directory (recordings & TTS output)
+temp/
+*.wav
+*.mp3
+
+# Go Executable / Binary
+ai-call
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test / Output / Log Files
+*.test
+*.out
+*.log
+
+# Editor & OS Metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
